@@ -1,5 +1,6 @@
-import { kafka } from "./client";
-import { createInterface } from "readline";
+const { kafka} = require('./client')
+const { createInterface} = require('readline')
+// import { createInterface } from "readline";
  
 const rl = createInterface({
   input: process.stdin,
